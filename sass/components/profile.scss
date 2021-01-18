@@ -1,0 +1,24 @@
+$camera-background-color: #ffffff;
+
+.profile-image {
+
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+.image-camera {
+
+    position: absolute;
+    right: 2.5px;
+    bottom: 16px;
+    padding: 3.5px;
+    background-color: $camera-background-color;
+    border-radius: 50%;
+    font-size: 18px;
+    
+    &:hover {
+        cursor: pointer;
+    }
+
+}

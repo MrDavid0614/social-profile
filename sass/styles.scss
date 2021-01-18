@@ -1,0 +1,14 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import './components/bg-image.scss';
+@import './components/profile.scss';
+@import './components/container.scss';
+@import './components/profile.scss';
+@import './components/publications.scss';
+@import './components/responsive.scss';

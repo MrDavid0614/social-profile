@@ -1,0 +1,44 @@
+$publications-background-color: rgba(245, 171, 224, 0.8);
+
+.publications__content {
+
+    display: grid;
+    position: relative;
+    padding: 20px;
+    background-color: $publications-background-color;
+    border-radius: 30px;
+    grid-template-areas: "image name name"
+                        "image content content"
+                        "image nada date";
+
+
+    .publications__content-image {
+
+        width: 30px;
+        border-radius: 50%;
+        grid-area: image;
+        object-fit: cover;
+
+    }
+
+    .publications__content-name {
+
+        grid-area: name;
+        margin-left: 10px;
+        margin-bottom: -2px;
+        font-size: 14px;
+
+    }
+
+    .publications__content-text {
+
+        grid-area: content;
+        
+    }
+
+    .publications__content-date {
+
+        grid-area: date;
+
+    }
+}

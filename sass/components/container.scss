@@ -1,0 +1,46 @@
+.container {
+
+    position: fixed;
+    top: 10px;
+    right: 30vw;
+    height: 80vh;
+    padding: 50px;
+    background-color: rgba(161, 97, 143, 0.582);
+    right: 100vw / 2;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 12;
+    border-radius: 40px;
+
+    .container__info {
+
+        display: flex;
+    
+    }
+    
+    .container__biography {
+    
+        margin-left: 15px;
+    
+    }
+    
+    .container__image {
+    
+        position: relative;
+    
+    }
+    
+    .container__titles {
+    
+        font-size: 16px;
+    
+    }
+    
+    .container__subtitle {
+    
+        font-size: 14px;
+    
+    }
+
+}

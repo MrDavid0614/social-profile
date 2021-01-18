@@ -1,0 +1,6 @@
+@mixin background($url, $repeat: no-repeat) {
+    
+    background: url($url);
+    background-repeat: $repeat;
+    background-size: cover;
+}
